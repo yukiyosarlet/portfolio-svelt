@@ -1,7 +1,7 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import Counter from '../lib/Counter.svelte'
 </script>
 
 <main>
@@ -149,16 +149,26 @@
 
 <style lang="scss">
 
-    .welcome {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #0F0;
-      font-size: 48px; 
-      font-weight: bold;
-      z-index: 1;
-      text-shadow: 0 0 10px #0F0, 0 0 20px #0F0;
-    }
- 
+    .main-container {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+.ervaring {
+	display: grid;
+	width: 90%;
+	align-items: center;
+	justify-items: center;
+	gap: 1rem;
+
+	.job {
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
 </style>
