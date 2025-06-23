@@ -171,6 +171,143 @@
 
 <style lang="scss">
 
- 
+.information {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+
+	.personal {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "titel titel";
+		gap: 1rem;
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
+	.socials {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "titel titel";
+		gap: 1rem;
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
+	.language {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "titel titel";
+		gap: 1rem;
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
+	.hobbies {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "titel titel";
+		gap: 1rem;
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
+	.skills {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "titel titel";
+		gap: 1rem;
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
+	.opleiding {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "titel titel";
+		gap: 1rem;
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
+	.ervaring {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "titel titel";
+		gap: 1rem;
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
+}
+
+.titel {
+	grid-area: titel;
+}
+.awnser {
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 1.25rem;
+	width: 0;
+	animation: typing 2s steps(20, end) forwards;
+}
+.taal {
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 1.25rem;
+	width: 0;
+	animation: typing 2s steps(20, end) forwards;
+}
+.hobby {
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 1.25rem;
+	width: 0;
+	animation: typing 2s steps(20, end) forwards;
+}
+.skill {
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 1.25rem;
+	width: 0;
+	animation: typing 2s steps(20, end) forwards;
+}
+.datum {
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 1.25rem;
+	width: 0;
+	animation: typing 2s steps(20, end) forwards;
+}
+.omschrijving {
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 1.25rem;
+	width: 100%;
+	animation: typing 2s steps(20, end) forwards;
+}
+
+@media (max-width: 1203px) {
+	.omschrijving {
+		overflow: hidden;
+		white-space: wrap;
+		font-size: 1.25rem;
+		width: 100%;
+		animation: typing 2s steps(20, end) forwards;
+	}
+}
+
+@media (max-width: 768px) {
+	.information {
+		grid-template-columns: 1fr;
+	}
+	.omschrijving {
+		overflow: hidden;
+		white-space: nowrap;
+		font-size: 1.25rem;
+		width: 100%;
+		animation: typing 2s steps(20, end) forwards;
+	}
+} 
  
 </style>
