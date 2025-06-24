@@ -1,8 +1,11 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from '../lib/Counter.svelte'
+  import Navbar from '../lib/navbar.svelte';
+  import{navbarData} from '../utils/linkUtil';
+  import Matrix from '../lib/matrix.svelte';
 </script>
+
+<Matrix/>
+<Navbar data={navbarData}/>
 
 <main>
   <div class="welcome">
@@ -22,6 +25,7 @@
       font-weight: bold;
       z-index: 1;
       text-shadow: 0 0 10px #0F0, 0 0 20px #0F0;
+      font-size: 1rem;
     }
  
 </style>
