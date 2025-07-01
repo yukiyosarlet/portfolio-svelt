@@ -21,7 +21,9 @@
 
         </div>
         <div class="nav_text">
-            <ul>
+
+			
+            <!-- <ul>
               <li>
                  <a class="nav-link" href="#" on:click|preventDefault={() => navigate('home')}>Home</a>
               </li>
@@ -31,7 +33,7 @@
                 <li> 
                   <a class="nav-link" href="#" on:click|preventDefault={() => navigate('ervaring')}>Ervaring</a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </nav>
 

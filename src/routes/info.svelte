@@ -168,6 +168,17 @@
                     <p>1.5 week als programmeur</p>
                 </div>
             </div>
+
+            <div class="motivatie">
+                <div class="titel">
+                    <h2>Motivatie</h2>
+                </div>
+                <div class="omschrijving">
+                    <p>Open voor extra avond cursussen om mijn skills uit te breiden naar wat het bedrijf nodig heeft</p>
+                    <p>Open voor alle feedback</p>
+                    <p>Open voor alle soorten werk in het bedrijf</p>
+                </div>
+            </div>
         </div>
 
 
@@ -292,6 +303,29 @@
 	animation: typing 2s steps(20, end) forwards;
 }
 
+@media (max-width: 1203px) {
+	.omschrijving {
+		overflow: hidden;
+		white-space: wrap;
+		font-size: 1.25rem;
+		width: 100%;
+		animation: typing 2s steps(20, end) forwards;
+	}
+}
+
+@media (max-width: 768px) {
+	.information {
+		grid-template-columns: 1fr;
+	}
+	.omschrijving {
+		overflow: hidden;
+		white-space: nowrap;
+		font-size: 1.25rem;
+		width: 100%;
+		animation: typing 2s steps(20, end) forwards;
+	}
+}
+
 @keyframes typing {
 	from {
 		width: 0;
@@ -301,4 +335,4 @@
 	}
 }
 
-        </style>
+</style>
