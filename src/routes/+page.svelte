@@ -1,50 +1,35 @@
 <script>
 // @ts-nocheck
 
-  import Home from './home.svelte';
-  import Info from './info.svelte';
-  import Ervaring from './ervaring.svelte';
-    import { assets } from '$app/paths';
+ import { navOptions } from  './Nav.svelte';	// import application navigation
+let selected = navOptions[0];	// keep track of the selected 'page' object (default to the about component since we must have local db connection established first)
+let intSelected = 0;	// selected page index
 
-  let current = 'home';
-
-  function navigate(page) {
-    current = page;
-  }
+// change the selected component (the event.originalTarget.id is not accessible in Chrome so switched to event.srcElement.id)
+function changeComponent(event) {
+	selected = navOptions[event.srcElement.id];
+	intSelected = event.srcElement.id;
+}
 </script>
   
 <nav>
         <div class="nav_nav">
-            <a class="nav-img" href="#" on:click|preventDefault={() => navigate('home')}>
                 <img src="src\assets\logo.png" class="imgnavigation" alt="logo">
-            </a>
 
         </div>
         <div class="nav_text">
-
-			
-            <!-- <ul>
-              <li>
-                 <a class="nav-link" href="#" on:click|preventDefault={() => navigate('home')}>Home</a>
-              </li>
-                <li> 
-                  <a class="nav-link" href="#" on:click|preventDefault={() => navigate('info')}>Info</a>
-                </li>
-                <li> 
-                  <a class="nav-link" href="#" on:click|preventDefault={() => navigate('ervaring')}>Ervaring</a>
-                </li>
-            </ul> -->
+            <ul>
+            {#each navOptions as option, i}
+		<li class="nav-item">
+			<a class={intSelected==i ? "nav-link active p-2 ml-1" : "p-2 ml-1 nav-link"} on:click={changeComponent} id={i} role="tab">{option.page}</a>
+		</li>
+		{/each}
+            </ul>
         </div>
     </nav>
 
 <main>
-  {#if current === 'home'}
-    <Home />
-  {:else if current === 'ervaring'}
-    <Ervaring />
-  {:else if current === 'info'}
-    <Info />
-  {/if}
+<svelte:component this={selected.component}/>
 </main>
 
 <footer>
@@ -55,11 +40,13 @@
         </div>
         <div class="footer__nav">
             <h3 class="footer-titel">Links</h3>
-            <div class="footer-nav">
-               <a class="footer-link" href="#" on:click|preventDefault={() => navigate('home')}>Home</a>
-                <a class="footer-link" href="#" on:click|preventDefault={() => navigate('info')}>Info</a>
-               <a class="footer-link" href="#" on:click|preventDefault={() => navigate('ervaring')}>Ervaring</a>
-            </div>
+            <div class="footer-nav"><ul>
+            {#each navOptions as option, i}
+		<li class="footer-item">
+			<a class= "p-2 ml-1 footer-link" on:click={changeComponent} id={i} role="tab">{option.page}</a>
+		</li>
+		{/each}
+            </ul></div>
         </div>
         <div class="footer__socials">
             <h3 class="footer-titel">Socials</h3>
@@ -84,7 +71,11 @@
 <style lang="scss">
     main{
     position: relative;
+	padding: 1rem;
+	overflow: hidden;
   }
+
+
 
     :global(*) {
     margin: 0;
@@ -110,7 +101,7 @@ footer {
 	padding: 2rem 5rem;
 	background-color: black;
 	display: grid;
-	grid-template-columns: 3fr 2fr 1fr;
+	grid-template-columns: 1fr 3fr 1fr;
 	gap: 1rem;
 }
 
@@ -152,6 +143,10 @@ a {
 	}
 }
 
+.active{
+border-bottom: solid green 2px;
+}
+
 .nav_text {
 	display: grid;
 	align-items: center;
@@ -167,6 +162,9 @@ a {
 		color: green;
 		text-decoration: none;
 		font-size: 1.5rem;
+		cursor: pointer;
+
+		
 	}
 
 	&-img {
@@ -206,6 +204,8 @@ a {
     display: grid;
 		align-items: center;
 		justify-items: center;
+		
+		cursor: pointer;
 	}
 	&__socials {
 		display: grid;

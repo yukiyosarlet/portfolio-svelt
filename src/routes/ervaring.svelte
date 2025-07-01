@@ -20,8 +20,7 @@
                     <div class="werk">
                         <p>Monitor speelpleinwerking</p>
                         <p>Spelletjes organiseren voor jongeren</p>
-                        <p>Eten geven aan kinderen</p>
-                        <p>Uitstap organiseren naar een zwembad en hun in het oog houden</p>
+                        <p>Uitstappen organiseren, bijvoorbeeld naar een zwembad en hen surveilleren</p>
                     </div>
                 </div>
 
@@ -44,7 +43,7 @@
                         <p>Kamers voorbereiden voor de bewoners</p>
                         <p>Eten serveren en daarna ook weer opruimen</p>
                         <p>Alles helpen klaarzetten</p>
-                        <p>Enterainen van de bewoners tijdens hun pauze </p>
+                        <p>Entertainen van de bewoners tijdens hun pauze </p>
                     </div>
                 </div>
 
@@ -62,9 +61,9 @@
                         </div>
                     </div>
                     <div class="werk">
-                        <p>SOP maken en de oude vernieuwen en ordenen in een nieuw systeem</p>
-                        <p>Herordenen en herlocaliseren van het magazijn + data can het magazijn op punt zetten</p>
-                        <p>Kaliteit controle van palleten bakstenen en de slechte er uithalen en vervangen met goede stenen</p>
+                        <p>SOP uitwerken, de oude versies vernieuwen en ordenen in een nieuw systeem</p>
+                        <p>Herordenen en herlocaliseren van het magazijn + de gegevens van het magazijn op punt zetten</p>
+                        <p>Kwaliteitscontrole van palletten met bakstenen (zoals de slechte er uithalen en vervangen met goede stenen)</p>
                     </div>
                 </div>
 
@@ -83,9 +82,9 @@
                     </div>
                     <div class="werk">
 
-                        <p>student (stage opleiding Graduaat verpleegkundige)</p>
-                        <p>bewoners helpen met eten, medicatie nemen, en voor hun zorgen doorheen de dag in de dementerende afdeling</p>
-                        <p>Verzorgen van verwondingen</p>
+                        <p>Student (stage opleiding Graduaat verpleegkundige)</p>
+                        <p>Bewoners helpen met eten, medicatie nemen, en voor hun zorgen doorheen de dag in de dementerende afdeling</p>
+                        <p>Wondverzorging</p>
                     </div>
                 </div>
 
@@ -103,9 +102,9 @@
                         </div>
                     </div>
                     <div class="werk">
-                        <p>student (stage opleiding Graduaat verpleegkundige)</p>
-                        <p>Bewoners verzogen dooheen de dag</p>
-                        <p>Verzorgen van wonden</p>
+                        <p>Student (stage opleiding Graduaat verpleegkundige)</p>
+                        <p>Bewoners verzorgen doorheen de dag</p>
+                        <p>Wondverzorging</p>
                     </div>
                 </div>
 
@@ -123,10 +122,10 @@
                         </div>
                     </div>
                     <div class="uitleg">
-                        <p>1.5 week als instalateur</p>
-                        <p>Installeren van beveiligheids camera's, rookmelders in het magazijn en demoruimte</p>
-                        <p>Installeren van camera en beveileging sensoren bij de klant</p>
-                        <p>1.5 week als programmeur waar ik de website moest redisgnen en programeren</p>
+                        <p>1,5 week als installateur</p>
+                        <p>Installeren van beveiligingscamera's, rookmelders in het magazijn en demoruimte</p>
+                        <p>Installeren van camera en beveiligingssensoren bij de klant</p>
+                        <p>1,5 week als programmeur waar ik de website moest re-designen en programmeren</p>
                         <p>Gebruik gemaakt van: SvelteKit, figma, markdown, cloudfare</p>
                     </div>
                 </div>

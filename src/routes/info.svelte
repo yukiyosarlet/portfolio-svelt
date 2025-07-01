@@ -47,11 +47,11 @@
                     yu.sarlet@gmail.com
                 </div>
                 <div class="question">
-                    LinkdIn:
+                    LinkedIn:
                 </div>
                 <div class="awnser">
                     <a href="https://www.linkedin.com/in/yukiyo-sarlet-483477311/">
-                        LinkdIn Yukiyo Sarlet</a>
+                        LinkedIn Yukiyo Sarlet</a>
                 </div>
                 <div class="question">
                     Github:
@@ -174,9 +174,13 @@
                     <h2>Motivatie</h2>
                 </div>
                 <div class="omschrijving">
-                    <p>Open voor extra avond cursussen om mijn skills uit te breiden naar wat het bedrijf nodig heeft</p>
-                    <p>Open voor alle feedback</p>
-                    <p>Open voor alle soorten werk in het bedrijf</p>
+                    <p>Klaar om een nieuw hoofdstuk in te slaan.</p>
+                    <p>Ik sta zeker open om extra cursussen/avondlessen te volgen om mijn skills uit te <br>
+                        breiden naar wat het bedrijf nodig heeft.</p>
+                    <p>Open voor alle feedback.</p>
+                    <p>Open voor brede waaier van taken. Interesse in programmatie en techniek.</p>
+                    <p>Zeer hands-on mentaliteit. Spontaan en sociaal karakter. <br>
+                    Goede team spirit: ik kan zelfstandig werken maar werk prima samen in een team.</p>
                 </div>
             </div>
         </div>
@@ -251,6 +255,11 @@
 		grid-template-columns: 1fr 1fr;
 		grid-template-areas: "titel titel";
 		gap: 1rem;
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
+    	.motivatie {
 		border: green solid 5px;
 		border-radius: 5px;
 		padding: 1rem;
