@@ -19,7 +19,8 @@
                     </div>
                     <div class="werk">
                         <p>Monitor speelpleinwerking</p>
-                        <p>gemeente Kluisbergen</p>
+                        <p>Spelletjes organiseren voor jongeren</p>
+                        <p>Uitstappen organiseren, bijvoorbeeld naar een zwembad en hen surveilleren</p>
                     </div>
                 </div>
 
@@ -31,7 +32,7 @@
                     <div class="info-job">
                         <div class="werk">
                             <p>Vakantiejob Logistiek</p>
-                            <p>Marialove (Curando), Heestert</p>
+                            <p>Woonzorgcentrum Marialove (Curando), Heestert</p>
                         </div>
                         <div class="tijd">
                             jul 2017- aug 2017
@@ -39,7 +40,10 @@
                     </div>
                     <div class="werk">
                         <p>Logistiek</p>
-                        <p>Woonzorgcentrum Marialove, Heestert</p>
+                        <p>Kamers voorbereiden voor de bewoners</p>
+                        <p>Eten serveren en daarna ook weer opruimen</p>
+                        <p>Alles helpen klaarzetten</p>
+                        <p>Entertainen van de bewoners tijdens hun pauze </p>
                     </div>
                 </div>
 
@@ -57,8 +61,9 @@
                         </div>
                     </div>
                     <div class="werk">
-
-                        <p>Ik moest helpen met het maken van SOP's en het ordenen van de oude SOP's en </p>
+                        <p>SOP uitwerken, de oude versies vernieuwen en ordenen in een nieuw systeem</p>
+                        <p>Herordenen en herlocaliseren van het magazijn + de gegevens van het magazijn op punt zetten</p>
+                        <p>Kwaliteitscontrole van palletten met bakstenen (zoals de slechte er uithalen en vervangen met goede stenen)</p>
                     </div>
                 </div>
 
@@ -77,7 +82,9 @@
                     </div>
                     <div class="werk">
 
-                        <p>student (stage opleiding Graduaat verpleegkundige)</p>
+                        <p>Student (stage opleiding Graduaat verpleegkundige)</p>
+                        <p>Bewoners helpen met eten, medicatie nemen, en voor hun zorgen doorheen de dag in de dementerende afdeling</p>
+                        <p>Wondverzorging</p>
                     </div>
                 </div>
 
@@ -95,7 +102,9 @@
                         </div>
                     </div>
                     <div class="werk">
-                        <p>student (stage opleiding Graduaat verpleegkundige)</p>
+                        <p>Student (stage opleiding Graduaat verpleegkundige)</p>
+                        <p>Bewoners verzorgen doorheen de dag</p>
+                        <p>Wondverzorging</p>
                     </div>
                 </div>
 
@@ -113,8 +122,11 @@
                         </div>
                     </div>
                     <div class="uitleg">
-                        <p>1.5 week als instalateur en 1.5 week als programmeur</p>
-                        <p>heb SvelteKit, figma, markdown, cloudfare toegepast</p>
+                        <p>1,5 week als installateur</p>
+                        <p>Installeren van beveiligingscamera's, rookmelders in het magazijn en demoruimte</p>
+                        <p>Installeren van camera en beveiligingssensoren bij de klant</p>
+                        <p>1,5 week als programmeur waar ik de website moest re-designen en programmeren</p>
+                        <p>Gebruik gemaakt van: SvelteKit, figma, markdown, cloudfare</p>
                     </div>
                 </div>
 
@@ -133,7 +145,7 @@
                     </div>
                     <div class="werk">
 
-                        <p>Gemaakt in svelte</p>
+                        <p>Eerst gemaakt in html, javascript en scss daarna heb ik het verbeterd in svelte</p>
                     </div>
                 </div>
             </div>

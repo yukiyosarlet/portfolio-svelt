@@ -66,10 +66,9 @@
   .home{
     position: absolute;
     z-index: 1;
-    top: 35%;
-    left: 40%;
+    top: 30%;
+    left: 43%;
     display: grid;
-    align-items:center ;
     justify-items: center;
      &-titel{
     color: white;

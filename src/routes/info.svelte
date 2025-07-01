@@ -47,11 +47,11 @@
                     yu.sarlet@gmail.com
                 </div>
                 <div class="question">
-                    LinkdIn:
+                    LinkedIn:
                 </div>
                 <div class="awnser">
                     <a href="https://www.linkedin.com/in/yukiyo-sarlet-483477311/">
-                        LinkdIn Yukiyo Sarlet</a>
+                        LinkedIn Yukiyo Sarlet</a>
                 </div>
                 <div class="question">
                     Github:
@@ -168,6 +168,21 @@
                     <p>1.5 week als programmeur</p>
                 </div>
             </div>
+
+            <div class="motivatie">
+                <div class="titel">
+                    <h2>Motivatie</h2>
+                </div>
+                <div class="omschrijving">
+                    <p>Klaar om een nieuw hoofdstuk in te slaan.</p>
+                    <p>Ik sta zeker open om extra cursussen/avondlessen te volgen om mijn skills uit te <br>
+                        breiden naar wat het bedrijf nodig heeft.</p>
+                    <p>Open voor alle feedback.</p>
+                    <p>Open voor brede waaier van taken. Interesse in programmatie en techniek.</p>
+                    <p>Zeer hands-on mentaliteit. Spontaan en sociaal karakter. <br>
+                    Goede team spirit: ik kan zelfstandig werken maar werk prima samen in een team.</p>
+                </div>
+            </div>
         </div>
 
 
@@ -244,6 +259,11 @@
 		border-radius: 5px;
 		padding: 1rem;
 	}
+    	.motivatie {
+		border: green solid 5px;
+		border-radius: 5px;
+		padding: 1rem;
+	}
 }
 
 .titel {
@@ -292,6 +312,29 @@
 	animation: typing 2s steps(20, end) forwards;
 }
 
+@media (max-width: 1203px) {
+	.omschrijving {
+		overflow: hidden;
+		white-space: wrap;
+		font-size: 1.25rem;
+		width: 100%;
+		animation: typing 2s steps(20, end) forwards;
+	}
+}
+
+@media (max-width: 768px) {
+	.information {
+		grid-template-columns: 1fr;
+	}
+	.omschrijving {
+		overflow: hidden;
+		white-space: nowrap;
+		font-size: 1.25rem;
+		width: 100%;
+		animation: typing 2s steps(20, end) forwards;
+	}
+}
+
 @keyframes typing {
 	from {
 		width: 0;
@@ -301,4 +344,4 @@
 	}
 }
 
-        </style>
+</style>
