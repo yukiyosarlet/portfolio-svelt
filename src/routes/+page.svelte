@@ -1,11 +1,9 @@
 <script>
 // @ts-nocheck
 
- import { navOptions } from  './Nav.svelte';	// import application navigation
-let selected = navOptions[0];	// keep track of the selected 'page' object (default to the about component since we must have local db connection established first)
-let intSelected = 0;	// selected page index
-
-// change the selected component (the event.originalTarget.id is not accessible in Chrome so switched to event.srcElement.id)
+ import { navOptions } from  './nav.svelte';	
+let selected = navOptions[0];	
+let intSelected = 0;	
 function changeComponent(event) {
 	selected = navOptions[event.srcElement.id];
 	intSelected = event.srcElement.id;
@@ -14,7 +12,7 @@ function changeComponent(event) {
   
 <nav>
         <div class="nav_nav">
-                <img src="src\assets\logo.png" class="imgnavigation" alt="logo">
+                <img src="/logo.png" class="imgnavigation" alt="logo">
 
         </div>
         <div class="nav_text">
@@ -34,9 +32,7 @@ function changeComponent(event) {
 
 <footer>
         <div class="footer__pic">
-            <a href="index.html">
-                <img src="src\assets\logo.png" class="imgfooter" alt="logo">
-            </a>
+                <img src="/logo.png" class="imgfooter" alt="logo">
         </div>
         <div class="footer__nav">
             <h3 class="footer-titel">Links</h3>
@@ -52,16 +48,16 @@ function changeComponent(event) {
             <h3 class="footer-titel">Socials</h3>
             <div class="footer__social">
                 <a href="https://www.facebook.com/yuyo.sarlet/" target="_blank">
-                    <img src="src\assets/Facebook.svg" class="socials-icon" alt="socials">
+                    <img src="/Facebook.svg" class="socials-icon" alt="socials">
                 </a>
                 <a href="https://www.instagram.com/yukiyosarlet/" target="_blank">
-                    <img src="src\assets\Instagram.svg" class="socials-icon" alt="socials">
+                    <img src="/Instagram.svg" class="socials-icon" alt="socials">
                 </a>
                 <a href="https://github.com/yukiyosarlet" target="_blank">
-                    <img src="src\assets\github.svg" class="socials-icon" alt="socials">
+                    <img src="/github.svg" class="socials-icon" alt="socials">
                 </a>
                 <a href="https://www.linkedin.com/in/yukiyo-sarlet-483477311/" target="_blank">
-                    <img src="src\assets\LinkdIn.svg" class="socials-icon" alt="socials">
+                    <img src="/LinkdIn.svg" class="socials-icon" alt="socials">
                 </a>
             </div>
         </div>
