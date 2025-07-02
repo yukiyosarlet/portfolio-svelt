@@ -6,7 +6,7 @@
             <div class="ervaring">
                 <div class="job">
                     <div class="picture">
-                        <img src="src\assets/job/kluisbergen-logo.png" class="jobImg" alt="job">
+                        <img src="/job/Kluisbergen-logo.png" class="jobImg" alt="job">
                     </div>
                     <div class="info-job">
                         <div class="werk">
@@ -26,7 +26,7 @@
 
                 <div class="job">
                     <div class="picture">
-                        <img src="src\assets/job/logo-westervier.png" class="jobImg" alt="job">
+                        <img src="/job/logo-westervier.png" class="jobImg" alt="job">
                     </div>
 
                     <div class="info-job">
@@ -49,7 +49,7 @@
 
                 <div class="job">
                     <div class="picture">
-                        <img src="src\assets/job/logo_wienerberger.jpg" class="jobImg" alt="job">
+                        <img src="/job/logo_wienerberger.jpg" class="jobImg" alt="job">
                     </div>
                     <div class="info-job">
                         <div class="werk">
@@ -69,7 +69,7 @@
 
                 <div class="job">
                     <div class="picture">
-                        <img src="src\assets\job\logo-westervier.png" class="jobImg" alt="job">
+                        <img src="/job\logo-westervier.png" class="jobImg" alt="job">
                     </div>
                     <div class="info-job">
                         <div class="werk">
@@ -90,7 +90,7 @@
 
                 <div class="job">
                     <div class="picture">
-                        <img src="src\assets/job/Az-logo.png" class="jobImg" alt="job">
+                        <img src="/job/Az-logo.png" class="jobImg" alt="job">
                     </div>
                     <div class="info-job">
                         <div class="werk">
@@ -110,7 +110,7 @@
 
                 <div class="job">
                     <div class="picture">
-                        <img src="src\assets/job/IcoDLC.svg" class="jobImg" alt="job">
+                        <img src="/job/IcoDLC.svg" class="jobImg" alt="job">
                     </div>
                     <div class="info-job">
                         <div class="werk">
@@ -132,7 +132,7 @@
 
                 <div class="job">
                     <div class="picture">
-                        <img src="src\assets/logo.png" class="jobImg" alt="job">
+                        <img src="/logo.png" class="jobImg" alt="job">
                     </div>
                     <div class="info-job">
                         <div class="werk">
