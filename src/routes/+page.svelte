@@ -8,6 +8,11 @@ function changeComponent(event) {
 	selected = navOptions[event.srcElement.id];
 	intSelected = event.srcElement.id;
 }
+
+
+  function goTop() {
+    document.body.scrollIntoView();
+  }
 </script>
   
 <nav>
@@ -19,7 +24,8 @@ function changeComponent(event) {
             <ul>
             {#each navOptions as option, i}
 		<li class="nav-item">
-			<a class={intSelected==i ? "nav-link active p-2 ml-1" : "p-2 ml-1 nav-link"} on:click={changeComponent} id={i} role="tab">{option.page}</a>
+			<!-- svelte-ignore a11y_interactive_supports_focus -->
+			<a class={intSelected==i ? "nav-link active p-2 ml-1" : "p-2 ml-1 nav-link"} on:click={goTop} on:click={changeComponent} id={i} role="tab">{option.page}</a>
 		</li>
 		{/each}
             </ul>
@@ -39,7 +45,7 @@ function changeComponent(event) {
             <div class="footer-nav"><ul>
             {#each navOptions as option, i}
 		<li class="footer-item">
-			<a class= "p-2 ml-1 footer-link" on:click={changeComponent} id={i} role="tab">{option.page}</a>
+			<a class= "p-2 ml-1 footer-link" on:click={goTop} on:click={changeComponent} id={i} role="tab">{option.page}</a>
 		</li>
 		{/each}
             </ul></div>
